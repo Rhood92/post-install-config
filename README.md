@@ -176,7 +176,4 @@ This project showcases the complete installation and configuration of osTicket o
 
 If you're interested in setting up your own osTicket system, feel free to follow this guide. Contributions and suggestions are welcome!
 
----
-## Contact
-For any questions, feel free to reach out via GitHub Issues.
 
