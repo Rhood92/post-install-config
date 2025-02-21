@@ -37,7 +37,8 @@ Before setting up osTicket, ensure you have the following:
 ### 1. Setting Up osTicket
 First, I began the installation process by setting up the osTicket system. I configured the **Helpdesk Name, Default Email, and Admin User Account**.
 
-![Setting up osTicket](https://imgur.com/a/7phIdPu)
+![image](https://github.com/user-attachments/assets/bbf9813a-1066-422f-b9a2-097529f72a13)
+
 
 
 ---
@@ -45,28 +46,32 @@ First, I began the installation process by setting up the osTicket system. I con
 ### 2. Installing HeidiSQL
 To manage the MySQL database efficiently, I installed **HeidiSQL**. This tool provides an easy-to-use interface for connecting to MySQL databases.
 
-![Installing HeidiSQL](images/Screenshot-2.png)
+![image](https://github.com/user-attachments/assets/185b5dbf-199e-4011-bc70-e56597421c31)
+
 
 ---
 
 ### 3. Connecting to MySQL
 After installing HeidiSQL, I created a connection to the MySQL database. The hostname was set to `127.0.0.1`, and the root user was used for database authentication.
 
-![Connecting to MySQL](images/Screenshot-3.png)
+![image](https://github.com/user-attachments/assets/0fdba1f1-c862-45e0-ba9f-b7b0fe47d149)
+
 
 ---
 
 ### 4. Creating the Database
 Next, I created a **new MySQL database** for osTicket using HeidiSQL. The database was named `osTicket`.
 
-![Creating the Database](images/Screenshot-4.png)
+![image](https://github.com/user-attachments/assets/811f79d1-5a41-46b8-a24a-6a65f35bc44f)
+
 
 ---
 
 ### 5. Completing osTicket Setup
 Once the database was created, I linked it to osTicket by providing the MySQL **hostname, database name, username, and password** in the osTicket setup page.
 
-![Completing osTicket Setup](images/Screenshot-5.png)
+![image](https://github.com/user-attachments/assets/23012c31-7152-4097-8ebc-83cec754060c)
+
 
 ---
 
@@ -76,29 +81,38 @@ After completing the installation, osTicket was fully set up, and I accessed the
 #### Admin Login Page
 This is where administrators and support agents log in to manage tickets.
 
-![Admin Login Page](images/Screenshot-6.png)
+![image](https://github.com/user-attachments/assets/9c860ed3-b9d6-4785-931c-425735747629)
+
 
 #### End-User Support Page
 Users can create new support tickets and check the status of their existing tickets.
 
-![End-User Support Page](images/Screenshot-7.png)
+![image](https://github.com/user-attachments/assets/b60c0377-0243-4a88-8be9-551c75d70ad9)
+
 
 #### Admin Dashboard
 From the admin panel, I can manage users, tickets, and system configurations.
 
-![Admin Dashboard](images/Screenshot-8.png)
+![image](https://github.com/user-attachments/assets/cd31276b-202a-4f91-b5a6-edf2b72dda82)
+
 
 #### Roles & Permissions
 Different levels of access are assigned to various agents.
 
-![Roles and Permissions](images/Screenshot-9.png)
+![image](https://github.com/user-attachments/assets/e66f1000-e0e8-4e43-8246-4397b352432c)
+
 
 ---
 
 ### 7. Creating User Roles
 I created a **SupremeAdmin** role and assigned it full permissions to perform all actions within osTicket.
 
-![Creating User Roles](images/Screenshot-10.png)
+![image](https://github.com/user-attachments/assets/5b179e7e-8538-46ac-ba8d-1dcd3641c4ad)
+
+![image](https://github.com/user-attachments/assets/2ac81beb-462a-4b7d-a8e8-3b4f0c85f508)
+
+![image](https://github.com/user-attachments/assets/0d7767f6-b1ad-47ac-b7ae-ea563fc3e917)
+
 
 ---
 
@@ -110,7 +124,8 @@ I added multiple **help topics** for end-users to choose from when submitting a 
 - Password Reset
 - Other
 
-![Setting Up Help Topics](images/Screenshot-11.png)
+![image](https://github.com/user-attachments/assets/a1959e61-1464-4dff-8bae-29ed0470dde5)
+
 
 ---
 
@@ -120,35 +135,39 @@ I created **Service Level Agreements (SLA)** to prioritize ticket resolution:
 - **Sev-B**: 4-hour grace period, 24/7 support
 - **Sev-C**: 8-hour grace period, business hours only
 
-![Configuring SLA Plans](images/Screenshot-12.png)
+![image](https://github.com/user-attachments/assets/83bc893b-777e-44f1-9819-7d4291d08a34)
+
 
 ---
 
 ### 10. Creating End Users
 I created two **end users** who will submit tickets to the support team for resolution.
 
-![Creating End Users](images/Screenshot-13.png)
+![image](https://github.com/user-attachments/assets/eb8ab531-690b-44b7-a0e6-fe3d45146442)
+
 
 ---
 
 ### 11. Adding Agents
 I added **two agents** (employees) and assigned them to a department. Each agent was given appropriate permissions based on their role.
 
-![Adding Agents](images/Screenshot-14.png)
+![image](https://github.com/user-attachments/assets/26351b38-60c0-4cfd-9265-608849f88a53)
+
 
 ---
 
 ### 12. Creating Teams
 I created an **Online Banking Team**, which will be responsible for handling specific types of support requests.
 
-![Creating Teams](images/Screenshot-15.png)
+![image](https://github.com/user-attachments/assets/17f918fa-8267-40b6-8236-8836036c298a)
+
 
 ---
 
 ### 13. Creating Departments
 A **SysAdmins Department** was created to manage IT-related issues within the organization.
 
-![Creating Departments](images/Screenshot-16.png)
+![image](https://github.com/user-attachments/assets/47dfd52f-5e8b-451e-9b4e-49c37afdb6ba)
 
 ---
 
