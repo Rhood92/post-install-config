@@ -172,8 +172,8 @@ A **SysAdmins Department** was created to manage IT-related issues within the or
 ---
 
 ## Conclusion
-This project showcases the complete installation and configuration of osTicket on a local server. With osTicket successfully set up, I can now manage support tickets efficiently. 
+This project showcases the complete installation and configuration of osTicket on a local server. With osTicket successfully set up, I can now manage support tickets efficiently. If you're interested in setting up your own osTicket system, feel free to follow this guide! Check out the last section of my project entitled "osTicket Installation and Configuration".
 
-If you're interested in setting up your own osTicket system, feel free to follow this guide. Contributions and suggestions are welcome!
+
 
 
